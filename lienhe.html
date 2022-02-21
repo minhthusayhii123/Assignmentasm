@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+          body {
+             background-image: url(IMG/sang.jpg);
+             font-family: 'Merriweather', sans-serif;
+             padding: 1em;
+            }
+            h1{
+              text-align: center;
+              color: black;
+              text-shadow: 1px 1px 0 wheat;
+            }
+            form{
+              max-width: 600px;
+              text-align: center;
+              margin: 20px auto;
+
+            }
+            input, textarea{
+              border: 0;
+              outline: 0;
+              padding: 1em;
+              border-radius: 8px;
+              display: block;
+              width: 100%;
+              margin-top: 1em;
+              font-family: 'Merriweather' sans-serif;
+              box-shadow: 0 1px 1px brown;
+            }
+            #input-submit{
+              color: aquamarine;
+              background: orangered;
+              cursor: pointer;
+            }
+            textarea{
+              height: 126px;
+            }
+            /* .half{
+              float: left;
+              width: 48%;
+              margin-bottom: 1em;
+            } */
+    </style>
+</head>
+<body>
+    <h1>ĐIỀN THÔNG TIN LIÊN HỆ</h1>
+<form class="cf">
+  <div class="half left cf">
+    <input type="text" id="input-name" placeholder="Tên: ">
+    <input type="email" id="input-email" placeholder="Email: ">
+    <input type="text" id="input-subject" placeholder="Chủ đề: ">
+  </div>
+  <div class="half right cf">
+    <textarea name="message" type="text" id="input-message" placeholder="Nội dung: "></textarea>
+  </div>  
+  <input type="submit" value="Gửi" id="input-submit">
+</form>
+</body>
+</html>

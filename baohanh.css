@@ -1,0 +1,19 @@
+.form-group{
+    margin: 10px 2px;
+    /* text-align: center; */
+}
+img.cangiua{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.center{
+    padding-top: 30px;
+    padding-bottom: 30px;
+    position: relative;
+    text-align: center;
+    color: white;
+}
+body{
+    background-image: url('IMG/hinh2.jpg');
+}
